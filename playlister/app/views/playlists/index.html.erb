@@ -12,6 +12,7 @@
       <td><%= playlist.name %></td>
       <td><%= playlist.user.name %></td>
       <td><%= playlist.songs.count %></td>
+      <td><%= link_to "Edit Playlist!", edit_playlist_path(playlist) %></td>
     </tr>
   <% end %>
 </table>
